@@ -1,0 +1,14 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/MDOCC-Grupo5/spring-cloud-stack-netflix-central-config.git
+          username: ssuazaa08
+          password: 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
+          default-label: master
